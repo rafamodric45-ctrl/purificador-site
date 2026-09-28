@@ -1,0 +1,4 @@
+.review-stars{margin-top:4px;color:var(--brand);font-size:18px;line-height:22px;letter-spacing:1px}
+.review-title{margin-top:8px;font-size:14px;line-height:21px;font-weight:700}
+.review-comment{margin-top:6px;font-size:13px;line-height:21.125px}
+.review-card-header>span{font-size:11px}
