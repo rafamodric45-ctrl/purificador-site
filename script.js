@@ -1,5 +1,6 @@
 'use strict';
 const config = window.STORE_CONFIG || {price:119.90};
+(function(){const el=document.getElementById('buyers-count');if(el){el.textContent=Math.floor(Math.random()*158)+127;}})();
 const money = value => value.toLocaleString('pt-BR', {style:'currency',currency:'BRL'});
 document.querySelectorAll('[data-price]').forEach(el => el.textContent = money(config.price));
 const paths = {
